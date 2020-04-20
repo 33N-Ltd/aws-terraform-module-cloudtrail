@@ -1,6 +1,6 @@
-variable "account_name" {}
-variable "s3_bucket_force_destroy" {}
+variable "account_name" {
+}
 
 variable "common_tags" {
-  type = "map"
+  type = map(string)
 }
